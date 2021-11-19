@@ -1,0 +1,27 @@
+{
+  "name": "settle",
+  "version": "1.0.0",
+  "description": "Settle take home challenge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenogenesis20/red-muffin.git"
+  },
+  "author": "Maikel Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xenogenesis20/red-muffin/issues"
+  },
+  "homepage": "https://github.com/xenogenesis20/red-muffin#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
